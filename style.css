@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#main_div {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#header {
+    width: 100%;
+
+}
+
+#header ul {
+    list-style-type: none;
+    background-color: forestgreen;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+#header ul li {
+    padding: 25px;
+    width: 25%;
+
+}
+
+#header ul li:hover {
+    background-color: lightgreen;
+
+}
+
+#header ul a {
+    margin-top: 0px;
+    margin: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: larger;
+    text-decoration: none;
+    color: white;
+}
+
+#header ul a:hover {
+    color: black
+}
+
+#image {
+    width: 100%;
+    height: 400px;
+}
+
+#heading {
+    padding: 25px;
+}
+
+#heading h1 {
+    text-align: center;
+    color: 70ad47;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+}
+
+#left_nav {
+    width: 25%;
+}
+
+#left_nav ul {
+
+    list-style-type: none;
+    background-color: forestgreen;
+    padding: 0px;
+    margin: 0px;
+    float: left;
+}
+
+#left_nav ul li {
+    padding: 10px;
+    text-align: center;
+
+}
+
+#left_nav ul li:hover {
+    background-color: lightgreen;
+
+}
+
+#left_nav ul a {
+    margin-top: 0px;
+    margin: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    text-decoration: none;
+    color: white;
+}
+
+#left_nav ul a:hover {
+    color: black
+}
+
+#para {
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 15px;
+    width: 60%;
+    float: left;
+}
